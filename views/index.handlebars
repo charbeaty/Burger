@@ -1,13 +1,19 @@
 {{!-- create button tha will submit user input into db --}}
-<h1>Eat A Burger!</h1>
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51plXfMMwWL._SX466_.jpg" height="150px" width="150px"
+      class="center" alt="burger">
+      <hr>
+    <h1>Eat A Burger!</h1>
+ 
+
+
 
 <h2>Burgers that have yet to be devoured!</h2>
 
 <ul>
   {{#each burgers}}
-    {{#unless devoured}}
-      {{> burgers/burger-block devoured=true}}
-    {{/unless}}
+  {{#unless devoured}}
+  {{> burgers/burger-block devoured=true}}
+  {{/unless}}
   {{/each}}
 </ul>
 
@@ -15,9 +21,9 @@
 
 <ul>
   {{#each burgers}}
-    {{#if devoured}}
-      {{> burgers/burger-block devoured=false}}
-    {{/if}}
+  {{#if devoured}}
+  {{> burgers/burger-block devoured=false}}
+  {{/if}}
   {{/each}}
 </ul>
 

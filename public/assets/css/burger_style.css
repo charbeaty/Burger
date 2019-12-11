@@ -1,20 +1,18 @@
-li {
-    padding: 5px;
-    margin: 5px;
-    background: black;
-    color: white;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: red;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
+body {
+  background-color: rgb(236, 228, 104);
+}
+
+h1,
+h2 {
+  font-family:'Josefin Sans', sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
